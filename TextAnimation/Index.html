@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>
+        Text Testing
+    </title>
+    <link rel="stylesheet" type="text/css" href="Style.css">
+</head>
+
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenLite.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/plugins/CSSPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/plugins/TextPlugin.min.js"></script>
+    <script>
+        window.onload = function() {
+            var txt = document.getElementById("textField");
+            console.log("animation starting");
+
+            TweenLite.to(txt, 2, {
+                text: "Identify Develop Enhance Apply Support",
+                ease: Linear.easeNone
+            });
+
+            console.log("animation done");
+        }
+
+    </script>
+    <div class="content">
+        <div id="top">
+            <p id="textField">
+
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>

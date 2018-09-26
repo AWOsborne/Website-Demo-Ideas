@@ -1,0 +1,53 @@
+body {
+    background-color: #333;
+}
+
+.table {
+    display: table;
+    margin: 0 auto;
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+ul#icon_list {
+    display: inline;
+    list-style: none;
+}
+
+ul#icon_list li {
+    display: inline;
+}
+
+ul#icon_list li:not(:last-child) {
+    padding-right: 50px;
+}
+
+ul#text_list {
+    display: inline;
+    list-style: none;
+}
+
+ul#text_list li {
+    display: inline;
+}
+
+ul#text_list li:not(:last-child) {
+    padding-right: 50px;
+}
+
+.svgIcon {
+    transition: stroke-width 1s, ease-in-out 1s;
+    transform-origin: 50% 50%;
+    opacity: 0.9;
+}
+
+.svgIcon:hover {
+    stroke-width: 0;
+    transform: scale(1.05);
+    opacity: 1;
+}
+
+p {
+    color: #f2f2f2;
+}

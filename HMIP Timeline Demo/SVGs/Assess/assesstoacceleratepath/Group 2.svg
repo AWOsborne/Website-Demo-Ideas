@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="89px" height="127px" viewBox="0 0 89 127" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="44" width="89" height="15"></rect>
+        <rect id="path-2" x="3" y="15" width="10" height="10" rx="2"></rect>
+        <rect id="path-3" x="20" y="0" width="10" height="10" rx="2"></rect>
+        <path d="M30,20 L30,17 C30,15.8954305 30.8954305,15 32,15 L38,15 C39.1045695,15 40,15.8954305 40,17 L40,23 C40,24.1045695 39.1045695,25 38,25 L35,25 L35,28 C35,29.1045695 34.1045695,30 33,30 L27,30 C25.8954305,30 25,29.1045695 25,28 L25,22 C25,20.8954305 25.8954305,20 27,20 L30,20 Z" id="path-4"></path>
+        <rect id="path-5" x="50" y="15" width="10" height="10" rx="2"></rect>
+        <rect id="path-6" x="68" y="0" width="10" height="10" rx="2"></rect>
+        <rect id="path-7" x="79" y="18" width="10" height="10" rx="2"></rect>
+    </defs>
+    <g id="HMIP-Process" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-18.000000, -1064.000000)">
+        <g id="Group-2" transform="translate(18.000000, 1064.000000)">
+            <g id="Rectangle-5">
+                <use fill-opacity="0" fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <rect stroke="#979797" stroke-width="4" x="2" y="46" width="85" height="11"></rect>
+            </g>
+            <path d="M10.264888,57 L41.2312712,94.2304315 L41.2312712,94.9534733 C41.2312712,108.586341 41.2312712,108.586341 41.2312712,117.676543 C41.2312712,121.258534 41.2312712,121.366536 41.2312712,123.70303 C42.1346371,123.232417 43.2279484,122.64582 44.4718593,121.966105 C45.82076,121.229021 47.2676017,120.425826 48.7146698,119.61411 C49.035506,119.43414 49.3418115,119.261901 49.6305029,119.099209 C49.6305029,118.364777 49.6305029,117.098443 49.6305029,113.937906 C49.6305029,106.555071 49.6305029,106.555071 49.6305029,94.9534733 L49.6305029,94.2621374 L78.8868958,57 L10.264888,57 Z" id="Rectangle-6" stroke="#979797" stroke-width="4"></path>
+            <g id="Rectangle-8">
+                <use fill-opacity="0" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
+                <rect stroke="#979797" stroke-width="3" x="4.5" y="16.5" width="7" height="7" rx="2"></rect>
+            </g>
+            <g id="Rectangle-8">
+                <use fill-opacity="0" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                <rect stroke="#979797" stroke-width="3" x="21.5" y="1.5" width="7" height="7" rx="2"></rect>
+            </g>
+            <g id="Combined-Shape">
+                <use fill-opacity="0" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-4"></use>
+                <path stroke="#979797" stroke-width="3" d="M31.5,17 L31.5,21.5 L27,21.5 C26.7238576,21.5 26.5,21.7238576 26.5,22 L26.5,28 C26.5,28.2761424 26.7238576,28.5 27,28.5 L33,28.5 C33.2761424,28.5 33.5,28.2761424 33.5,28 L33.5,23.5 L38,23.5 C38.2761424,23.5 38.5,23.2761424 38.5,23 L38.5,17 C38.5,16.7238576 38.2761424,16.5 38,16.5 L32,16.5 C31.7238576,16.5 31.5,16.7238576 31.5,17 Z"></path>
+            </g>
+            <g id="Rectangle-8">
+                <use fill-opacity="0" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-5"></use>
+                <rect stroke="#979797" stroke-width="3" x="51.5" y="16.5" width="7" height="7" rx="2"></rect>
+            </g>
+            <g id="Rectangle-8">
+                <use fill-opacity="0" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-6"></use>
+                <rect stroke="#979797" stroke-width="3" x="69.5" y="1.5" width="7" height="7" rx="2"></rect>
+            </g>
+            <g id="Rectangle-8">
+                <use fill-opacity="0" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-7"></use>
+                <rect stroke="#979797" stroke-width="3" x="80.5" y="19.5" width="7" height="7" rx="2"></rect>
+            </g>
+            <path d="M8,25 L8,33.799094" id="Line" stroke="#979797" stroke-width="3" stroke-linecap="square"></path>
+            <path d="M9.28459938,35.0851382 C8.35787133,35.0851382 7.93255927,35.0638536 8.00866317,35.0212845 C8.08476708,34.9787155 8.26996445,35 8.56425529,35.0851382 L12.1028889,35.0851382 L13.0091785,35.3253256 C13.0358887,35.1652007 12.9383352,35.0851382 12.7165181,35.0851382 C12.494701,35.0851382 11.3507281,35.0851382 9.28459938,35.0851382 Z" id="Line" stroke="#979797" stroke-width="3" stroke-linecap="square"></path>
+            <path d="M13.5,36.5 L13.5,44.5" id="Line" stroke="#979797" stroke-width="3" stroke-linecap="square"></path>
+            <path d="M16.7522201,37.0851382 C14.7667298,37.0851382 13.85551,37.0638536 14.0185606,37.0212845 C14.1816112,36.9787155 14.5783917,37 15.208902,37.0851382 L22.7495771,37.0851382 L24.1050149,37.0212845 C25.0137147,37.0354742 25.230446,37.0425691 24.7552088,37.0425691 C24.2799715,37.0425691 21.6123086,37.0567588 16.7522201,37.0851382 Z" id="Line" stroke="#979797" stroke-width="3" stroke-linecap="square"></path>
+            <path d="M25,38 L25,44.5" id="Line" stroke="#979797" stroke-width="3" stroke-linecap="square"></path>
+            <path d="M55,25 L55,43" id="Line" stroke="#979797" stroke-width="3" stroke-linecap="square"></path>
+            <g id="Group" transform="translate(80.500000, 37.500000) scale(-1, 1) translate(-80.500000, -37.500000) translate(76.000000, 28.000000)" stroke="#979797" stroke-linecap="square" stroke-width="3">
+                <path d="M1,0 L1,8" id="Line"></path>
+                <path d="M4.72232404,8.93332152 C2.14798529,8.96993497 0.905582731,8.96993497 0.995116359,8.93332152 C1.08464999,8.89670807 1.30801063,8.89670807 1.66519829,8.93332152 L6.14879968,9.01083413 L7,9.35115949 C6.99991909,9.07260084 6.86939855,8.93332152 6.60843837,8.93332152 C6.34747819,8.93332152 5.71877342,8.93332152 4.72232404,8.93332152 Z" id="Line"></path>
+                <path d="M7,11 L7.0951366,17.4817337" id="Line"></path>
+            </g>
+        </g>
+    </g>
+</svg>

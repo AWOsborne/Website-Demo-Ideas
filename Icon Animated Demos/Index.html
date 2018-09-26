@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>
+        SVG Testing
+    </title>
+    <link rel="stylesheet" type="text/css" href="Style.css">
+</head>
+
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenLite.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/plugins/CSSPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/plugins/TextPlugin.min.js"></script>
+    <script>
+        window.onload = function() {
+            console.log("animation starting");
+
+            document.getElementById("svg1").onmouseover = function textHover(imgId) {
+                TweenLite.to(document.getElementById("txt1"), 2, {
+                    text: {
+                        value: "Identify",
+                        ease: Linear.easeNone
+                    },
+                    delay: 0.2
+                });
+            };
+
+            document.getElementById("svg2").onmouseover = function textHover(imgId) {
+                TweenLite.to(document.getElementById("txt2"), 2, {
+                    text: {
+                        value: "Develop",
+                        ease: Linear.easeNone
+                    },
+                    delay: 0.2
+                });
+            };
+
+            document.getElementById("svg3").onmouseover = function textHover(imgId) {
+                TweenLite.to(document.getElementById("txt3"), 2, {
+                    text: {
+                        value: "Enhance",
+                        ease: Linear.easeNone
+                    },
+                    delay: 0.2
+                });
+            };
+
+            document.getElementById("svg4").onmouseover = function textHover(imgId) {
+                TweenLite.to(document.getElementById("txt4"), 2, {
+                    text: {
+                        value: "Apply",
+                        ease: Linear.easeNone
+                    },
+                    delay: 0.2
+                });
+            };
+
+            document.getElementById("svg5").onmouseover = function textHover(imgId) {
+                TweenLite.to(document.getElementById("txt5"), 2, {
+                    text: {
+                        value: "Support",
+                        ease: Linear.easeNone
+                    },
+                    delay: 0.2
+                });
+            };
+
+            console.log("animation done");
+        }
+
+    </script>
+    <div class="table">
+        <div>
+            <ul id="icon_list">
+                <li>
+                    <img class="svgIcon" id="svg1" src="Icons/identify.svg" onmouseover="textHover(this)"></img>
+                </li>
+                <li>
+                    <img class="svgIcon" id="svg2" src="Icons/develop.svg"></img>
+                </li>
+                <li>
+                    <img class="svgIcon" id="svg3" src="Icons/enhance.svg"></img>
+                </li>
+                <li>
+                    <img class="svgIcon" id="svg4" src="Icons/apply.svg"></img>
+                </li>
+                <li>
+                    <img class="svgIcon" id="svg5" src="Icons/support.svg"></img>
+                </li>
+            </ul>
+        </div>
+        <div class="content">
+            <ul id="text_list">
+                <li>
+                    <p class="textField" id="txt1"></p>
+                </li>
+                <li>
+                    <p class="textField" id="txt2"></p>
+                </li>
+                <li>
+                    <p class="textField" id="txt3"></p>
+                </li>
+                <li>
+                    <p class="textField" id="txt4"></p>
+                </li>
+                <li>
+                    <p class="textField" id="txt5"></p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>

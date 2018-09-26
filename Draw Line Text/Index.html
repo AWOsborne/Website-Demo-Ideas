@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>
+        SVG Testing
+    </title>
+    <link rel="stylesheet" type="text/css" href="Style.css">
+</head>
+
+<body>
+    <div class="table">
+
+        <!--<object class="svgIcon" id="svg1" type="image/svg+xml" data="Icons/differently_line.svg"></object> -->
+        <object id="my-svg" type="image/svg+xml" data="Icons/differently_line.svg"></object>
+
+        <script>
+        window.onload = function() {
+            console.log("loaded window");
+            const vivus = new Vivus('my-svg', {
+                duration: 1500
+            });
+            vivus.play(function() {
+                console.log("animation success!");
+
+            });
+        }
+        </script>
+    </div>
+</body>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vivus/0.4.4/vivus.min.js"></script>>
+ </html>
