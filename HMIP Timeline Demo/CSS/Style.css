@@ -1,0 +1,398 @@
+.MainWindow {
+	position: relative;
+	background-color: #EEE;
+    height: 2500px;
+}
+
+.Discover {
+	position: absolute;
+	left: 10%;
+	width: 80%;
+}
+
+#DiscoverLightbulb {
+	position: absolute;
+	width: 13%;
+    top: 40px;
+    left: 0%;
+}
+
+#DiscoverLightbulbShadow {
+	position: absolute;
+    width: 7%;
+	top: 280px;
+	left: 3%;
+}
+
+#DiscoverPath {
+	position: absolute;
+    width: 60%;
+    top: 200px;
+    left: 100px;
+}
+
+.Organize {
+	position: absolute;
+	margin-top: 150px;
+	left: 10%;
+	width: 80%;
+}
+
+#OrganizeLetterA {
+    position: absolute;
+    width: 2%;
+    top: 250px;
+    left: 72%;
+}
+
+#OrganizeLetterB {
+    position: absolute;
+    width: 1.8%;
+    top: 400px;
+    left: 75%;
+}
+
+#OrganizeLetterC {
+    position: absolute;
+    width: 1.7%;
+    top: 300px;
+    left: 80%;
+}
+
+#OrganizeLetterD {
+    position: absolute;
+    width: 1.8%;
+    top: 300px;
+    left: 68%;
+}
+
+#OrganizeLetterE {
+    position: absolute;
+    width: 1.6%;
+    top: 300px;
+    left: 75%;
+}
+
+#OrganizeLetterF {
+    position: absolute;
+    width: 1.6%;
+    top: 240px;
+    left: 78%;
+}
+
+#OrganizeLetterG {
+    position: absolute;
+    width: 2%;
+    top: 450px;
+    left: 65%;
+}
+
+#OrganizeLetterH {
+    position: absolute;
+    width: 1.8%;
+    top: 220px;
+    left: 69%;
+}
+
+#OrganizeLetterI {
+    position: absolute;
+    width: 0.95%;
+    top: 100px;
+    left: 77%;
+    animation: LetterPopI 2s;
+}
+
+#OrganizeLetterJ {
+    position: absolute;
+    width: 1%;
+    top: 320px;
+    left: 87%;
+}
+
+#OrganizeLetterK {
+    position: absolute;
+    width: 1.9%;
+    top: 450px;
+    left: 90%;
+}
+
+#OrganizeLetterL {
+    position: absolute;
+    width: 1.4%;
+    top: 425px;
+    left: 84%;
+}
+
+#OrganizeLetterM {
+    position: absolute;
+    width: 2.2%;
+    top: 500px;
+    left: 77%;
+}
+
+#OrganizeLetterN {
+    position: absolute;
+    width: 1.7%;
+    top: 520px;
+    left: 87%;
+}
+
+#OrganizeLetterO {
+    position: absolute;
+    width: 1.8%;
+    top: 300px;
+    left: 64%;
+}
+
+#OrganizeLetterP {
+    position: absolute;
+    width: 2%;
+    top: 100px;
+    left: 79%;
+    animation: LetterPopP 2s;
+}
+
+#OrganizeLetterQ {
+    position: absolute;
+    width: 1.8%;
+    top: 300px;
+    left: 90%;
+}
+
+#OrganizeLetterR {
+    position: absolute;
+    width: 1.8%;
+    top: 500px;
+    left: 71%;
+}
+
+#OrganizeLetterS {
+    position: absolute;
+    width: 1.7%;
+    top: 450px;
+    left: 80%;
+}
+
+#OrganizeLetterT {
+    position: absolute;
+    width: 1.6%;
+    top: 250px;
+    left: 84%;
+}
+
+#OrganizeLetterU {
+    position: absolute;
+    width: 2%;
+    top: 375px;
+    left: 67%;
+}
+
+#OrganizeLetterV {
+    position: absolute;
+    width: 1.8%;
+    top: 400px;
+    left: 87%;
+}
+
+#OrganizeLetterW {
+    position: absolute;
+    width: 2.7%;
+    top: 320px;
+    left: 71%;
+}
+
+#OrganizeLetterX {
+    position: absolute;
+    width: 1.8%;
+    top: 350px;
+    left: 77.5%;
+}
+
+#OrganizeLetterY {
+    position: absolute;
+    width: 1.9%;
+    top: 370px;
+    left: 92%;
+}
+
+#OrganizeLetterZ {
+    position: absolute;
+    width: 1.6%;
+    top: 220px;
+    left: 88%;
+}
+
+#OrganizePath {
+    position: absolute;
+    width: 40%;
+    top: 400px;
+    left: 24%;
+}
+
+.Assess {
+	position: absolute;
+	margin-top: 500px;
+	left: 10%;
+	width: 80%;
+}
+
+#AssessGrowth{
+    position: absolute;
+    width: 15%;
+    top: 40px;
+    left: 8%;
+}
+
+#AssessShadow {
+    position: absolute;
+    width: 12%;
+    top: 270px;
+    left: 9.5%;
+}
+
+.AssessPath {
+	position: absolute;
+    margin-top: 400px;
+	width: 80%;
+}
+
+#AssessPath1 {
+    position: absolute;
+    width: 10%;
+    top: 0px;
+    left: 0%;
+}
+
+#AssessPath2 {
+    position: absolute;
+    width: 10%;
+    top: 270px;
+    left: 0.2%;
+}
+
+#AssessPath3 {
+    position: absolute;
+    width: 48%;
+    top: 285px;
+    left: 5%;
+}
+
+.Accelerate {
+	position: absolute;
+	margin-top: 1120px;
+	left: 10%;
+	width: 80%;
+}
+
+#AccelerateBike {
+    position: absolute;
+    width: 20%;
+    top: 15px;
+    left: 42%;
+    animation: ZoomFromLeft 2s;
+}
+
+#AcceleratePath {
+    position: absolute;
+    width: 30%;
+    top: 120px;
+    left: 63%;
+}
+
+.Reassess {
+	position: absolute;
+	margin-top: 1500px;
+	left: 10%;
+	width: 80%;
+}
+
+#ReassessPresentation {
+    position: absolute;
+    width: 15%;
+    top: 10px;
+    left: 70%;
+}
+
+#ReassessShadow {
+    position: absolute;
+    width: 12%;
+    top: 255px;
+    left: 72%;
+}
+
+#ReassessPath {
+    position: absolute;
+    width: 65%;
+    top: 275px;
+    left: 25%;
+}
+
+.Recommendations {
+	position: absolute;
+	margin-top: 1940px;
+	left: 10%;
+	width: 80%;
+}
+
+#RecommendationsFlag {
+    position: absolute;
+    width: 11%;
+    top: 0px;
+    left: 16%;
+}
+
+#RecommendationsShadow {
+    position: absolute;
+    width: 11%;
+    top: 205px;
+    left: 15%;
+}
+
+/*-----Animation-----*/
+
+
+
+/*-----Letters-----*/
+@keyframes LetterPopI {
+    0% {
+        width: 0.85%;
+        top: 400px;
+        left: 72%;
+    }
+    100% {
+        width: 0.95%;
+        top: 100px;
+        left: 77%;
+    }
+}
+
+@keyframes LetterPopP {
+    0% {
+        width: 1.7%;
+        top: 340px;
+        left: 83%;
+    }
+    100% {
+        width: 2%;
+        top: 100px;
+        left: 79%;
+    }
+}
+
+
+/*-----Bike-----*/
+@keyframes ZoomFromLeft {
+    0% {
+        left: 0%;
+    }
+    80% {
+        left: 42%;
+        transform: rotate(20deg);
+    }
+    90% {
+        transform: rotate(25deg);
+    }
+    100% {
+        transform: rotate(-5deg);
+    }
+}

@@ -1,71 +1,81 @@
 <!DOCTYPE html>
 <HTML>
 
-	<head>
-		<meta charset="utf-8">
-    	<title>
-        	HMIP Story
-    	</title>
-    	<link rel="stylesheet" type="text/css" href="Style.css">
-	</head>
-	<body>
-		<div class="MainWindow">
-			<div class="Discover">
-				<img class="svgImage" id="DiscoverLightbulb" src="SVGs/Discover/discover-light-bulb.svg"></img>
-				<img class="svgImage" id="DiscoverLightbulbShadow" src="SVGs/Discover/light bulb shadow.svg"></img>
-				<img class="svgImage" id="DiscoverPath" src="SVGs/Discover/discovertoorganizepath.svg"></img>
-			</div>
-			<div class="Organize">
-				<img class="svgImage" id="OrganizeLetterA" src="SVGs/Organize/A.svg"></img>
-				<img class="svgImage" id="OrganizeLetterB" src="SVGs/Organize/B.svg"></img>
-				<img class="svgImage" id="OrganizeLetterC" src="SVGs/Organize/C.svg"></img>
-				<img class="svgImage" id="OrganizeLetterD" src="SVGs/Organize/D.svg"></img>
-				<img class="svgImage" id="OrganizeLetterE" src="SVGs/Organize/E.svg"></img>
-				<img class="svgImage" id="OrganizeLetterF" src="SVGs/Organize/F.svg"></img>
-				<img class="svgImage" id="OrganizeLetterG" src="SVGs/Organize/G.svg"></img>
-				<img class="svgImage" id="OrganizeLetterH" src="SVGs/Organize/H.svg"></img>
-				<img class="svgImage" id="OrganizeLetterI" src="SVGs/Organize/I.svg"></img>
-				<img class="svgImage" id="OrganizeLetterJ" src="SVGs/Organize/J.svg"></img>
-				<img class="svgImage" id="OrganizeLetterK" src="SVGs/Organize/K.svg"></img>
-				<img class="svgImage" id="OrganizeLetterL" src="SVGs/Organize/L.svg"></img>
-				<img class="svgImage" id="OrganizeLetterM" src="SVGs/Organize/M.svg"></img>
-				<img class="svgImage" id="OrganizeLetterN" src="SVGs/Organize/N.svg"></img>
-				<img class="svgImage" id="OrganizeLetterO" src="SVGs/Organize/O.svg"></img>
-				<img class="svgImage" id="OrganizeLetterP" src="SVGs/Organize/P.svg"></img>
-				<img class="svgImage" id="OrganizeLetterQ" src="SVGs/Organize/Q.svg"></img>
-				<img class="svgImage" id="OrganizeLetterR" src="SVGs/Organize/R.svg"></img>
-				<img class="svgImage" id="OrganizeLetterS" src="SVGs/Organize/S.svg"></img>
-				<img class="svgImage" id="OrganizeLetterT" src="SVGs/Organize/T.svg"></img>
-				<img class="svgImage" id="OrganizeLetterU" src="SVGs/Organize/U.svg"></img>
-				<img class="svgImage" id="OrganizeLetterV" src="SVGs/Organize/V.svg"></img>
-				<img class="svgImage" id="OrganizeLetterW" src="SVGs/Organize/W.svg"></img>
-				<img class="svgImage" id="OrganizeLetterX" src="SVGs/Organize/X.svg"></img>
-				<img class="svgImage" id="OrganizeLetterY" src="SVGs/Organize/Y.svg"></img>
-				<img class="svgImage" id="OrganizeLetterZ" src="SVGs/Organize/Z.svg"></img>
-				<img class="svgImage" id="OrganizePath" src="SVGs/Organize/organizetoassesspath.svg"></img>
-			</div>
-			<div class="Assess">
-				<img class="svgImage" id="AssessGrowth" src="SVGs/Assess/growth.svg"></img>
-				<img class="svgImage" id="AssessShadow" src="SVGs/Assess/Oval 3.svg"></img>
-				<div id="AssessPath">
-					<img class="svgImage" id="AssessPath" src="SVGs/Assess/assesstoacceleratepath/Path 8.svg"></img>
-					<img class="svgImage" id="AssessPath" src="SVGs/Assess/assesstoacceleratepath/Group 2.svg"></img>
-					<img class="svgImage" id="AssessPath" src="SVGs/Assess/assesstoacceleratepath/Path 10.svg"></img>
-				</div>
-			</div>
-			<div class="Accelerate">
-				<img class="svgImage" id="AccelerateBike" src="SVGs/Accelerate/bicycle.svg"></img>
-				<img class="svgImage" id="AcceleratePath" src="SVGs/Accelerate/acceleratetoreassesspath.svg"></img>
-			</div>
-			<div class="Reassess">
-				<img class="svgImage" id="ReassessPresentation" src="SVGs/Reassess/presentation.svg"></img>
-				<img class="svgImage" id="ReassessShadow" src="SVGs/Reassess/Oval 3.svg"></img>
-				<img class="svgImage" id="ReassessPath" src="SVGs/Reassess/reassesstorecommendationspath.svg"></img>
-			</div>
-			<div class="Recommendations">
-				<img class="svgImage" id="RecommendationsFlag" src="SVGs/Recommendations/finish-flag.svg"></img>
-				<img class="svgImage" id="RecommendationsShadow" src="SVGs/Recommendations/Oval 3.svg"></img>
-			</div>
-		</div>
-	</body>
+<head>
+    <meta charset="utf-8">
+    <title>
+        HMIP Story
+    </title>
+    <link rel="stylesheet" type="text/css" href="CSS/animate.css">
+    <link rel="stylesheet" type="text/css" href="CSS/Style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenLite.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/plugins/CSSPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/plugins/TextPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vivus/0.4.4/vivus.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="Script/jquery.waypoints.min.js"></script>
+    <script src="Script/Script.js"></script>
+</head>
+
+<body>
+    <div class="MainWindow">
+        <div class="Discover scrollTriggerDiscover">
+            <object id="DiscoverLightbulb" data="SVGs/Discover/discover-light-bulb.svg" type="image/svg+xml"></object>
+            <img class="svgImage" id="DiscoverLightbulbShadow" src="SVGs/Discover/light bulb shadow.svg"></img>
+            <object id="DiscoverPath" data="SVGs/Discover/discovertoorganizepath.svg" type="image/svg+xml"></object>
+        </div>
+        <div class="Organize scrollTriggerOrganize">
+            <img class="svgImage" id="OrganizeLetterA" src="SVGs/Organize/A.svg"></img>
+            <img class="svgImage" id="OrganizeLetterB" src="SVGs/Organize/B.svg"></img>
+            <img class="svgImage" id="OrganizeLetterC" src="SVGs/Organize/C.svg"></img>
+            <img class="svgImage" id="OrganizeLetterD" src="SVGs/Organize/D.svg"></img>
+            <img class="svgImage" id="OrganizeLetterE" src="SVGs/Organize/E.svg"></img>
+            <img class="svgImage" id="OrganizeLetterF" src="SVGs/Organize/F.svg"></img>
+            <img class="svgImage" id="OrganizeLetterG" src="SVGs/Organize/G.svg"></img>
+            <img class="svgImage" id="OrganizeLetterH" src="SVGs/Organize/H.svg"></img>
+            <img class="svgImage" id="OrganizeLetterI" src="SVGs/Organize/I.svg"></img>
+            <img class="svgImage" id="OrganizeLetterJ" src="SVGs/Organize/J.svg"></img>
+            <img class="svgImage" id="OrganizeLetterK" src="SVGs/Organize/K.svg"></img>
+            <img class="svgImage" id="OrganizeLetterL" src="SVGs/Organize/L.svg"></img>
+            <img class="svgImage" id="OrganizeLetterM" src="SVGs/Organize/M.svg"></img>
+            <img class="svgImage" id="OrganizeLetterN" src="SVGs/Organize/N.svg"></img>
+            <img class="svgImage" id="OrganizeLetterO" src="SVGs/Organize/O.svg"></img>
+            <img class="svgImage" id="OrganizeLetterP" src="SVGs/Organize/P.svg"></img>
+            <img class="svgImage" id="OrganizeLetterQ" src="SVGs/Organize/Q.svg"></img>
+            <img class="svgImage" id="OrganizeLetterR" src="SVGs/Organize/R.svg"></img>
+            <img class="svgImage" id="OrganizeLetterS" src="SVGs/Organize/S.svg"></img>
+            <img class="svgImage" id="OrganizeLetterT" src="SVGs/Organize/T.svg"></img>
+            <img class="svgImage" id="OrganizeLetterU" src="SVGs/Organize/U.svg"></img>
+            <img class="svgImage" id="OrganizeLetterV" src="SVGs/Organize/V.svg"></img>
+            <img class="svgImage" id="OrganizeLetterW" src="SVGs/Organize/W.svg"></img>
+            <img class="svgImage" id="OrganizeLetterX" src="SVGs/Organize/X.svg"></img>
+            <img class="svgImage" id="OrganizeLetterY" src="SVGs/Organize/Y.svg"></img>
+            <img class="svgImage" id="OrganizeLetterZ" src="SVGs/Organize/Z.svg"></img>
+            <object id="OrganizePath" data="SVGs/Organize/organizetoassesspath.svg" type="image/svg+xml"></object>
+        </div>
+        <div class="Assess scrollTriggerAssess">
+            <img class="svgImage" id="AssessShadow" src="SVGs/Assess/Oval 3.svg"></img>
+            <img class="svgImage" id="AssessGrowth" src="SVGs/Assess/growth.svg"></img>
+            <div class="AssessPath">
+                <object id="AssessPath1" data="SVGs/Assess/assesstoacceleratepath/Path 8.svg" type="image/svg+xml"></object>
+                <img class="svgImage" id="AssessPath2" src="SVGs/Assess/assesstoacceleratepath/Group 2.svg"></img>
+                <object id="AssessPath3" data="SVGs/Assess/assesstoacceleratepath/Path 10.svg" type="image/svg+xml"></object>
+            </div>
+        </div>
+        <div class="Accelerate scrollTriggerAccelerate">
+            <img class="svgImage" id="AccelerateBike" src="SVGs/Accelerate/bicycle.svg"></img>
+            <object id="AcceleratePath" data="SVGs/Accelerate/acceleratetoreassesspath.svg" type="image/svg+xml"></object>
+        </div>
+        <div class="Reassess scrollTriggerReassess">
+            <img class="svgImage" id="ReassessShadow" src="SVGs/Reassess/Oval 3.svg"></img>
+            <img class="svgImage" id="ReassessPresentation" src="SVGs/Reassess/presentation.svg"></img>
+            <object id="ReassessPath" data="SVGs/Reassess/reassesstorecommendationspath.svg" type="image/svg+xml"></object>
+        </div>
+        <div class="Recommendations scrollTriggerRecommendations">
+            <img class="svgImage" id="RecommendationsShadow" src="SVGs/Recommendations/Oval 3.svg"></img>
+            <img class="svgImage" id="RecommendationsFlag" src="SVGs/Recommendations/finish-flag.svg"></img>
+        </div>
+    </div>
+</body>
+
 </HTML>
