@@ -1,0 +1,111 @@
+body {
+    background: #EFEFEF;
+}
+
+.Main {
+    padding-right: 0%;
+}
+
+.MainInfo {
+    display: inline-block;
+    float: left;
+}
+
+.BigImage {
+    max-height: 300px;
+    position: absolute;
+    padding-left: 300px;
+    z-index: 99;
+    transition: 1s ease-in-out all;
+}
+
+.Background {
+    position: absolute;
+    height: 300px;
+    width: 410px;
+    z-index: 998;
+}
+
+.BackgroundInfo {
+    display: inline-block;
+    float: left;
+    max-height: 300px;
+    padding-left: 300px;
+}
+
+.SmallImage {
+    position: relative;
+    max-height: 150px;
+    width: 150px;
+    display: inline-block;
+    float: left;
+    transition: 1s ease-in-out all;
+}
+
+.ImageTile {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+    float: left;
+}
+
+.ImageTile img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+.ImageTile h1 {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    font-size: 12px;
+    z-index: 99;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 2px;
+    font-family: Oswald;
+    text-align: center;
+    white-space: nowrap;
+    width: 85%;
+}
+
+.Faded {
+    filter: grayscale(100%);
+}
+
+.Hidden {
+    opacity: 0.0;
+}
+
+.TextInfo {
+    position: absolute;
+    z-index: 999;
+}
+
+.TextSingle {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    font-family: Oswald;
+    text-align: left;
+    max-width: 250px;
+    padding-left: 20px;
+    transition: 1s ease-in-out all;
+}
+
+.PersonName {
+    white-space: nowrap;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.PersonTitle {
+    white-space: nowrap;
+    font-size: 20px;
+}
+
+.PersonFact {
+    font-size: 12px;
+}

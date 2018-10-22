@@ -4,6 +4,10 @@
     height: 2500px;
 }
 
+.Hidden {
+    visibility: hidden;
+}
+
 .Discover {
 	position: absolute;
 	left: 10%;
@@ -99,6 +103,9 @@
     width: 0.95%;
     top: 100px;
     left: 77%;
+}
+
+.PopI {
     animation: LetterPopI 2s;
 }
 
@@ -149,6 +156,9 @@
     width: 2%;
     top: 100px;
     left: 79%;
+}
+
+.PopP {
     animation: LetterPopP 2s;
 }
 
@@ -289,6 +299,9 @@
     width: 20%;
     top: 15px;
     left: 42%;
+}
+
+.Zoomin {
     animation: ZoomFromLeft 2s;
 }
 

@@ -1,0 +1,59 @@
+.Main {
+    padding-right: 0%;
+}
+
+.MainInfo {
+    display: inline-block;
+    float: left;
+}
+
+.BigImage {
+    max-height: 300px;
+    position: absolute;
+    padding-left: 300px;
+    z-index: 99;
+    transition: 1s ease-in-out all;
+}
+
+.Background {
+    position: absolute;
+    height: 300px;
+    width: 410px;
+    z-index: 999;
+}
+
+.BackgroundInfo {
+    display: inline-block;
+    float: left;
+    max-height: 300px;
+    padding-left: 300px;
+}
+
+.SmallImage {
+    position: relative;
+    max-height: 150px;
+    width: 150px;
+    display: inline-block;
+    float: left;
+    transition: 1s ease-in-out all;
+}
+
+.Faded {
+    filter: grayscale(100%);
+}
+
+.Hidden {
+    opacity: 0.0;
+}
+
+.Name {
+    position: relative;
+    font-size: 12px;
+    left: -120px;
+    top: 130px;
+}
+
+.Name span {
+    background-color: white;
+    padding: 3px;
+}

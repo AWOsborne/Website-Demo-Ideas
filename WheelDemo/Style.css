@@ -1,0 +1,128 @@
+.MainSection {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.InnerCircle {
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.CenterPerson {
+    position: absolute;
+    margin: 151px 0 0 150px;
+}
+
+.Background svg {
+    position: absolute;
+}
+
+.Background h1 {
+    position: absolute;
+    display: inline-block;
+    margin: 350px 0 0 310px;
+    font-size: 50px;
+    color: cornsilk;
+}
+
+ul {
+    list-style: none;
+}
+
+.Faded {
+    filter: grayscale(100%);
+}
+
+.Hidden {
+    visibility: hidden;
+}
+
+.CenterPerson img {
+    width: 50%;
+}
+
+.OuterSections li {
+    position: absolute;
+    display: inline-block;
+}
+
+.OuterSections img {
+    width: 50%;
+}
+
+.OuterPerson img:hover {
+    transform: scale(1.05);
+}
+
+#Outer1 {
+    margin: 56px 0 0 390px;
+}
+
+#Outer2 {
+    margin: 74px 0 0 475px;
+}
+
+#Outer3 {
+    margin: 133px 0 0 549px;
+}
+
+#Outer4 {
+    margin: 224px 0 0 603px;
+}
+
+#Outer5 {
+    margin: 334px 0 0 632px;
+}
+
+#Outer6 {
+    margin: 435px 0 0 603px;
+}
+
+#Outer7 {
+    margin: 515px 0 0 548px;
+}
+
+#Outer8 {
+    margin: 580px 0 0 474px;
+}
+
+#Outer9 {
+    margin: 622px 0 0 390px;
+}
+
+#Outer10 {
+    margin: 622px 0 0 275px;
+}
+
+#Outer11 {
+    margin: 579px 0 0 174px;
+}
+
+#Outer12 {
+    margin: 514px 0 0 99px;
+}
+
+#Outer13 {
+    margin: 434px 0 0 58px;
+}
+
+#Outer14 {
+    margin: 333px 0 0 54px;
+}
+
+#Outer15 {
+    margin: 223px 0 0 58px;
+}
+
+#Outer16 {
+    margin: 133px 0 0 98px;
+}
+
+#Outer17 {
+    margin: 74px 0 0 172px;
+}
+
+#Outer18 {
+    margin: 56px 0 0 274px;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>
+        Tile Demo
+    </title>
+    <link rel="stylesheet" type="text/css" href="Style.css">
+    <script type="text/javascript" src="Script.js"></script>
+</head>
+
+<body>
+    <div class="Main">
+        <div class="TopRow">
+            <svg class="Background" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="0 0 273 200" preserveAspectRatio="xMidYMid meet"><polyline style="stroke:none;fill:white;stroke-width:1px;" id="e3_polyline" points="195 0 200 0 200 83 222 100 200 117 200 200 195 200"></polyline><polyline style="stroke:none;fill:#E6E6E6;stroke-width:1px;" id="e2_polyline" points="195 0 0 0 0 200 195 200 195 115 215 100 195 85 195 0"/></svg>
+            <div id="mainImg" class="MainInfo">
+                <img class="BigImage Hidden" id="person9L" src="Images/JamilAlbertelliInner.jpg">
+                <img class="BigImage Hidden" id="person18L" src="Images/WayneChenInner.jpg">
+                <img class="BigImage Hidden" id="person3L" src="Images/ChristinaClarkInner.jpg">
+                <img class="BigImage Hidden" id="person4L" src="Images/CottrellJaridInner.jpg">
+                <img class="BigImage Hidden" id="person8L" src="Images/JaimeInner.jpg">
+                <img class="BigImage Hidden" id="person7L" src="Images/HillarieFloodInner.jpg">
+                <img class="BigImage Hidden" id="person14L" src="Images/NylaBethGawelInner.jpg">
+                <img class="BigImage Hidden" id="person6L" src="Images/HeidiGradyInner.jpg">
+                <img class="BigImage Hidden" id="person5L" src="Images/DeeDeeHelfensteinInner.jpg">
+                <img class="BigImage Hidden" id="person2L" src="Images/AndyLinnInner.jpg">
+                <img class="BigImage Hidden" id="person15L" src="Images/SandraMarshallInner.jpg">
+                <img class="BigImage Hidden" id="person13L" src="Images/MichaelMcGinnInner.jpg">
+                <img class="BigImage Hidden" id="person12L" src="Images/MehtaNirmalInner.jpg">
+                <img class="BigImage Hidden" id="person19L" src="Images/EricMillerInner.jpg">
+                <img class="BigImage Hidden" id="person10L" src="Images/JasonMyersInner.jpg">
+                <img class="BigImage Hidden" id="person1L" src="Images/AndieRautaInner.jpg">
+                <img class="BigImage Hidden" id="person16L" src="Images/SinghMunjeetInner.jpg">
+                <img class="BigImage Hidden" id="person11L" src="Images/MarkTullioInner.jpg">
+                <img class="BigImage Hidden" id="person17L" src="Images/SwellesInner.jpg">
+            </div>
+            <p id="control">
+                <img class="BackgroundInfo Faded" id="Info" src="Images/Filler.jpg">
+                <div>
+                    <img class="SmallImage Test Faded" id="person9" src="Images/JamilAlbertelliInner.jpg" onclick="toggleHidden('person9L', 'person9')">
+                    <h1 class="Name"><span>Jamil Albertelli</span></h1>
+                </div>
+                <img class="SmallImage Test Faded" id="person18" src="Images/WayneChenInner.jpg" onclick="toggleHidden('person18L', 'person18')">
+                <img class="SmallImage" id="Filler1" src="Images/Filler/Rectangle%20Light%20Grey.png">
+                <img class="SmallImage Test Faded" id="person3" src="Images/ChristinaClarkInner.jpg" onclick="toggleHidden('person3L', 'person3')">
+                <img class="SmallImage Test Faded" id="person4" src="Images/CottrellJaridInner.jpg" onclick="toggleHidden('person4L', 'person4')">
+                <img class="SmallImage" id="Filler1" src="Images/Filler/Triangle%20Lines%202.png">
+                <img class="SmallImage Test Faded" id="person8" src="Images/JaimeInner.jpg" onclick="toggleHidden('person8L', 'person8')">
+                <img class="SmallImage Test Faded" id="person7" src="Images/HillarieFloodInner.jpg" onclick="toggleHidden('person7L', 'person7')">
+                <img class="SmallImage" id="Filler1" src="Images/Filler/Triangle%20Lines.png">
+                <img class="SmallImage Test Faded" id="person14" src="Images/NylaBethGawelInner.jpg" onclick="toggleHidden('person14L', 'person14')">
+                <img class="SmallImage Test Faded" id="person6" src="Images/HeidiGradyInner.jpg" onclick="toggleHidden('person6L', 'person6')">
+                <img class="SmallImage" id="Filler1" src="Images/Filler/Rectangle%20Light%20Grey.png">
+                <img class="SmallImage" id="Filler1" src="Images/Filler/Half%201.png">
+                <img class="SmallImage Test Faded" id="person5" src="Images/DeeDeeHelfensteinInner.jpg" onclick="toggleHidden('person5L', 'person5')">
+                <img class="SmallImage Test Faded" id="person2" src="Images/AndyLinnInner.jpg" onclick="toggleHidden('person2L', 'person2')">
+                <img class="SmallImage" id="Filler1" src="Images/Filler/Shapes%20Tile%20Right.png">
+                <img class="SmallImage" id="Filler1" src="Images/Filler/Shapes%20Tile%20Left.png">
+                <img class="SmallImage Test Faded" id="person15" src="Images/SandraMarshallInner.jpg" onclick="toggleHidden('person15L', 'person15')">
+                <img class="SmallImage Test Faded" id="person13" src="Images/MichaelMcGinnInner.jpg" onclick="toggleHidden('person13L', 'person13')">
+                <img class="SmallImage Test Faded" id="person12" src="Images/MehtaNirmalInner.jpg" onclick="toggleHidden('person12L' , 'person12')">
+                <img class="SmallImage" id="Filler1" src="Images/Filler/Rectangle%20Light%20Grey.png">
+                <img class="SmallImage Test Faded" id="person19" src="Images/EricMillerInner.jpg" onclick="toggleHidden('person19L', 'person19')">
+                <img class="SmallImage Test Faded" id="person10" src="Images/JasonMyersInner.jpg" onclick="toggleHidden('person10L', 'person10')">
+                <img class="SmallImage" id="Filler1" src="Images/Filler/Rectangle%20Grey.png">
+                <img class="SmallImage Test Faded" id="person1" src="Images/AndieRautaInner.jpg" onclick="toggleHidden('person1L', 'person1')">
+                <img class="SmallImage" id="Filler1" src="Images/Filler/Rectangle%20Light%20Grey.png">
+                <img class="SmallImage Test Faded" id="person16" src="Images/SinghMunjeetInner.jpg" onclick="toggleHidden('person16L', 'person16')">
+                <img class="SmallImage" id="Filler1" src="Images/Filler/Diamond.png">
+                <img class="SmallImage Test Faded" id="person11" src="Images/MarkTullioInner.jpg" onclick="toggleHidden('person11L', 'person11')">
+                <img class="SmallImage Test Faded" id="person17" src="Images/SwellesInner.jpg" onclick="toggleHidden('person17L', 'person17')">
+                <img class="SmallImage" id="Filler1" src="Images/Filler/Half%202.png">
+                <img class="SmallImage" id="Filler1" src="Images/Filler/Rectangle%20Light%20Grey.png">
+            </p>
+        </div>
+    </div>
+</body>

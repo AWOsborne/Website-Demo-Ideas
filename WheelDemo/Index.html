@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>
+        Animation Extensions
+    </title>
+    <link rel="stylesheet" type="text/css" href="Style.css">
+    <link rel="stylesheet" type="text/css" href="animate.css">
+    <script type="text/javascript" src="Script.js"></script>
+</head>
+
+<body>
+    <div class="MainSection">
+        <div class="PeopleWheel">
+            <div class="Background">
+                <svg height="800" width="800">
+                    <circle cx="430" cy="390" r="335" stroke="none" stroke-width="3" fill="#111" />
+                </svg>
+                <h1>
+                    Leadership
+                </h1>
+            </div>
+            <div class="InnerCircle">
+                <ul>
+                    <li class="CenterPerson">
+                        <img class="CenterImage Hidden" id="Inner1" src="Images/Inner/AndieRautaInner.png">
+                    </li>
+                    <li class="CenterPerson">
+                        <img class="CenterImage Hidden" id="Inner2" src="Images/Inner/WayneChenInner.png">
+                    </li>
+                    <li class="CenterPerson">
+                        <img class="CenterImage Hidden" id="Inner3" src="Images/Inner/HeidiGradyInner.png">
+                    </li>
+                    <li class="CenterPerson">
+                        <img class="CenterImage Hidden" id="Inner4" src="Images/Inner/AndyLinnInner.png">
+                    </li>
+                    <li class="CenterPerson">
+                        <img class="CenterImage Hidden" id="Inner5" src="Images/Inner/MichaelMcGinnInner.png">
+                    </li>
+                    <li class="CenterPerson">
+                        <img class="CenterImage Hidden" id="Inner6" src="Images/Inner/JamilAlbertelliInner.png">
+                    </li>
+                    <li class="CenterPerson">
+                        <img class="CenterImage Hidden" id="Inner7" src="Images/Inner/JasonMyersInner.png">
+                    </li>
+                    <li class="CenterPerson">
+                        <img class="CenterImage Hidden" id="Inner8" src="Images/Inner/SandraMarshallInner.png">
+                    </li>
+                    <li class="CenterPerson">
+                        <img class="CenterImage Hidden" id="Inner9" src="Images/Inner/SwellesInner.png">
+                    </li>
+                    <li class="CenterPerson">
+                        <img class="CenterImage Hidden" id="Inner10" src="Images/Inner/SinghMunjeetInner.png">
+                    </li>
+                    <li class="CenterPerson">
+                        <img class="CenterImage Hidden" id="Inner11" src="Images/Inner/HillarieFloodInner.png">
+                    </li>
+                    <li class="CenterPerson">
+                        <img class="CenterImage Hidden" id="Inner12" src="Images/Inner/MarkTullioInner.png">
+                    </li>
+                    <li class="CenterPerson">
+                        <img class="CenterImage Hidden" id="Inner13" src="Images/Inner/JaimeInner.png">
+                    </li>
+                    <li class="CenterPerson">
+                        <img class="CenterImage Hidden" id="Inner14" src="Images/Inner/MehtaNirmalInner.png">
+                    </li>
+                    <li class="CenterPerson">
+                        <img class="CenterImage Hidden" id="Inner15" src="Images/Inner/NylaBethGawelInner.png">
+                    </li>
+                    <li class="CenterPerson">
+                        <img class="CenterImage Hidden" id="Inner16" src="Images/Inner/ChristinaClarkInner.png">
+                    </li>
+                    <li class="CenterPerson">
+                        <img class="CenterImage Hidden" id="Inner17" src="Images/Inner/CottrellJaridInner.png">
+                    </li>
+                    <li class="CenterPerson">
+                        <img class="CenterImage Hidden" id="Inner18" src="Images/Inner/DeeDeeHelfensteinInner.png">
+                    </li>
+                </ul>
+            </div>
+            <div class="OuterSections">
+                <ul>
+                    <li class="OuterPerson Faded" id="Outer1">
+                        <img class="OuterImage" src="Images/Outer/AndieRautaOuter.png" onclick="toggleHidden('Inner1', 'Outer1')">
+                    </li>
+                    <li class="OuterPerson Faded" id="Outer2">
+                        <img class="OuterImage" src="Images/Outer/WayneChenOuter.png" onclick="toggleHidden('Inner2', 'Outer2')">
+                    </li>
+                    <li class="OuterPerson Faded" id="Outer3">
+                        <img class="OuterImage" src="Images/Outer/HeidiGradyOuter.png" onclick="toggleHidden('Inner3', 'Outer3')">
+                    </li>
+                    <li class="OuterPerson Faded" id="Outer4">
+                        <img class="OuterImage" src="Images/Outer/AndyLinnOuter.png" onclick="toggleHidden('Inner4', 'Outer4')">
+                    </li>
+                    <li class="OuterPerson Faded" id="Outer5">
+                        <img class="OuterImage" src="Images/Outer/MichaelMcGinnOuter.png" onclick="toggleHidden('Inner5', 'Outer5')">
+                    </li>
+                    <li class="OuterPerson Faded" id="Outer6">
+                        <img class="OuterImage" src="Images/Outer/JamilAlbertelOuter.png" onclick="toggleHidden('Inner6', 'Outer6')">
+                    </li>
+                    <li class="OuterPerson Faded" id="Outer7">
+                        <img class="OuterImage" src="Images/Outer/JaysonMyersOuter.png" onclick="toggleHidden('Inner7', 'Outer7')">
+                    </li>
+                    <li class="OuterPerson Faded" id="Outer8">
+                        <img class="OuterImage" src="Images/Outer/SandraMarshallOuter.png" onclick="toggleHidden('Inner8', 'Outer8')">
+                    </li>
+                    <li class="OuterPerson Faded" id="Outer9">
+                        <img class="OuterImage" src="Images/Outer/SwellesOuter.png" onclick="toggleHidden('Inner9', 'Outer9')">
+                    </li>
+                    <li class="OuterPerson Faded" id="Outer10">
+                        <img class="OuterImage" src="Images/Outer/SinghMunjeetOuter.png" onclick="toggleHidden('Inner10', 'Outer10')">
+                    </li>
+                    <li class="OuterPerson Faded" id="Outer11">
+                        <img class="OuterImage" src="Images/Outer/HillarieFloodOuter.png" onclick="toggleHidden('Inner11', 'Outer11')">
+                    </li>
+                    <li class="OuterPerson Faded" id="Outer12">
+                        <img class="OuterImage" src="Images/Outer/MarkTullioOuter.png" onclick="toggleHidden('Inner12', 'Outer12')">
+                    </li>
+                    <li class="OuterPerson Faded" id="Outer13">
+                        <img class="OuterImage" src="Images/Outer/JamieOuter.png" onclick="toggleHidden('Inner13', 'Outer13')">
+                    </li>
+                    <li class="OuterPerson Faded" id="Outer14">
+                        <img class="OuterImage" src="Images/Outer/MehtaNirmalOuter.png" onclick="toggleHidden('Inner14', 'Outer14')">
+                    </li>
+                    <li class="OuterPerson Faded" id="Outer15">
+                        <img class="OuterImage" src="Images/Outer/NylaBethGawelOuter.png" onclick="toggleHidden('Inner15', 'Outer15')">
+                    </li>
+                    <li class="OuterPerson Faded" id="Outer16">
+                        <img class="OuterImage" src="Images/Outer/ChristinaClarkOuter.png" onclick="toggleHidden('Inner16', 'Outer16')">
+                    </li>
+                    <li class="OuterPerson Faded" id="Outer17">
+                        <img class="OuterImage" src="Images/Outer/CottrellJaridOuter.png" onclick="toggleHidden('Inner17', 'Outer17')">
+                    </li>
+                    <li class="OuterPerson Faded" id="Outer18">
+                        <img class="OuterImage" src="Images/Outer/DeeDeeHelfensteinOuter.png" onclick="toggleHidden('Inner18', 'Outer18')">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
